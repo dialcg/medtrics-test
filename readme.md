@@ -64,6 +64,7 @@ Make sure you have Docker and Docker Compose installed on your machine.
 
 - The backend runs on port `8000` by default.
 - It provides endpoints for listing session schedules, courses and locations.
+- Access admin interface with username `admin` and password `admin@localhost.internal`
 
 ### Frontend
 
@@ -77,6 +78,4 @@ Make sure you have Docker and Docker Compose installed on your machine.
 To run tests for the backend, use:
 
 `docker-compose exec backend pytest`
-
-This will execute the tests and give you feedback on your code.
 
