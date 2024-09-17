@@ -1,0 +1,10 @@
+# IDEs / Text Editors
+.vscode/
+*.swp
+
+#Pycharm Prefers
+.idea/
+
+vcs.xml
+
+.DS_Store

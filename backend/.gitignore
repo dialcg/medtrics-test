@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Caché de la base de datos
+*.sqlite3
+*.db
+
+# Archivos de registro
+*.log
+
+# Archivos de respaldo
+*~
+
+# Directorio de medios
+media/
+
+# Directorio de archivos estáticos
+staticfiles/
+
+# Directorio de entorno virtual
+venv/
+.env
+
+# Dependencias
+/venv/
+/pip-selfcheck.json
+
+# macOS / OS X
+.DS_Store
+
+# Byte-compiled files (Python 3.2+)
+*.pyc/
+

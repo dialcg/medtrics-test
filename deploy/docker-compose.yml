@@ -1,0 +1,22 @@
+# /deploy/docker-compose.yml
+
+version: '3.8'
+
+services:
+  medtrics-test-backend:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile-backend
+    container_name: medtrics-test-backend
+    ports:
+      - "8000:8000"
+
+  medtrics-test-frontend:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile-frontend
+    container_name: medtrics-test-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - medtrics-test-backend
