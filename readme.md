@@ -44,7 +44,7 @@ Make sure you have Docker and Docker Compose installed on your machine.
 
 1. **Clone the repository:**
 
-   ``git clone https://github.com/yourusername/medtrics-sessions.git``
+   ``git clone git@github.com:dialcg/medtrics-test.git``
 
    ``cd medtrics-sessions``
 
