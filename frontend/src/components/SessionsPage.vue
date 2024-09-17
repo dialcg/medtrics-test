@@ -55,7 +55,7 @@
         <li
           v-for="session in paginatedSessions"
           :key="session.id"
-          class="list-group-item d-flex flex-column flex-md-row justify-content-between align-items-start mb-3"
+          class="list-group-item mb-3"
         >
           <div>
             <h5 class="mb-1">{{ session.session.name }}</h5>
@@ -193,12 +193,6 @@
   .list-group-item {
     border-radius: 0.25rem;
   }
-  
-  @media (min-width: 768px) {
-    .list-group-item {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
+
   </style>
   
