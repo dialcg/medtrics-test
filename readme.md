@@ -77,5 +77,5 @@ Make sure you have Docker and Docker Compose installed on your machine.
 
 To run tests for the backend, use:
 
-`docker-compose exec backend pytest`
+`docker-compose exec medtrics-test-backend pytest`
 
